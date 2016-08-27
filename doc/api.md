@@ -8,7 +8,7 @@ MP(mount point) - базовый URL для методов API
 * example.org/api/v0 - с указанием хоста
 * /some/path/api/v0 - путь на текущем сервере
 
-bmk - часть пути
+bmk и comment - изменяемые части пути, настраивается в файле etc/routes.php
 
 **Описание структур**
 
