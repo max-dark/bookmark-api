@@ -22,7 +22,7 @@ CREATE TABLE `bm_bookmarks` (
   `uid`        INT  NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `created_at` INT  NOT NULL,
   `url`        TEXT NOT NULL
-);
+) DEFAULT CHARSET = utf8;
 
 CREATE TABLE `bm_comments` (
   `uid`          INT  NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -30,7 +30,7 @@ CREATE TABLE `bm_comments` (
   `created_at`   INT  NOT NULL,
   `ip`           TEXT NOT NULL,
   `text`         TEXT NOT NULL
-);
+) DEFAULT CHARSET = utf8;
 ```
 Где `bm_` - изменяемый префикс таблиц
 
