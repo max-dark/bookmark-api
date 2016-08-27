@@ -13,6 +13,7 @@ cd dir_name
 composer install
 ```
 Где `dir_name` - имя создаваемой директории
+
 * Создаем таблицы
 
 Можно использовать импрот в phpMyAdmin - файл `doc/init_db.sql`
