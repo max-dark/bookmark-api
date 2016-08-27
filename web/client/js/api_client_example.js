@@ -1,16 +1,11 @@
-/**
- * @author Max Dark
- * @license MIT
- */
-
 /*
  * @copyright Copyright (C) 2016. Max Dark maxim.dark@gmail.com
  * @license MIT; see LICENSE.txt
  */
+
 /**
- * @param {Object} opt
- *
- * @constructor {Rest}
+ * @constructor {ApiClient}
+ * @param opt {Object}
  */
 var ApiClient = function (opt) {
     var display_result;
@@ -49,11 +44,20 @@ var ApiClient = function (opt) {
     };
     /**
      * Display result
+     *
      * @param data {Object}
      */
     display_result = function (data) {
         $result.text(JSON.stringify(data, null, "\t"));
     };
+    /**
+     * Format url for API method
+     * @param {Object} opt
+     * @param {string} type bmk|cmt
+     * @param {string} method
+     *
+     * @return {string}
+     */
     api_url = (function (opt, type, method) {
         return opt.mount + opt[type] + method
     });
