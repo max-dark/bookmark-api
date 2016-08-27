@@ -1,0 +1,27 @@
+<FilesMatch "\.htaccess$">
+    Deny from all
+</FilesMatch>
+#RemoveType dll
+#AddType application/x-httpd-php .dll
+#<FilesMatch ".+\.dll$">
+#    AddHandler application/x-httpd-php .dll
+#</FilesMatch>
+#LogLevel debug
+### mod_rewrite section start
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L]
+</IfModule>
+### mod_rewrite section end
+
+### xdebug section start
+#php_value  xdebug.remote_enable 1
+#php_flag xdebug.remote_connect_back on
+#php_flag  xdebug.remote_autostart on
+#php_value xdebug.remote_host "localhost"
+#php_value xdebug.remote_port 9000
+#php_value xdebug.idekey "Debug me, please!"
+### xdebug section end
