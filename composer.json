@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "BookMark\\api\\v1": "src/"
+      "BookMark\\api\\v1\\": "src/"
     }
   },
   "require": {
