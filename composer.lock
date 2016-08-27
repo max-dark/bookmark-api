@@ -48,16 +48,16 @@
         },
         {
             "name": "max_dark/useless-database",
-            "version": "1.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-database.git",
-                "reference": "0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f"
+                "reference": "48c8a6df8b1405d69361546aff0c282dc7230992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-database/get/0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f.zip",
-                "reference": "0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f",
+                "url": "https://bitbucket.org/max_dark/useless-database/get/48c8a6df8b1405d69361546aff0c282dc7230992.zip",
+                "reference": "48c8a6df8b1405d69361546aff0c282dc7230992",
                 "shasum": ""
             },
             "require": {
@@ -79,11 +79,11 @@
                     "email": "maxim.dark@gmail.com"
                 }
             ],
-            "description": "Implemenattion for useless\\abstraction\\Storage",
+            "description": "Implementation for useless\\abstraction\\Storage",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-database/src/0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f/?at=1.0.0"
+                "source": "https://bitbucket.org/max_dark/useless-database/src/48c8a6df8b1405d69361546aff0c282dc7230992/?at=master"
             },
-            "time": "2016-08-27 04:59:41"
+            "time": "2016-08-27 06:33:46"
         },
         {
             "name": "max_dark/useless-rest",
