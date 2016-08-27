@@ -4,7 +4,7 @@
  * @license MIT; see LICENSE.txt
  */
 
-$mount_point = '/api/v0';
+$mount_point = '/api/v1';
 $bookmark = 'bookmark';
 $comment = 'comment';
 
