@@ -1,8 +1,10 @@
 {
   "name": "max_dark/bookmark-api",
   "description": "Simple API for shared bookmarks",
+  "homepage": "https://bitbucket.org/max_dark/bookmark-api",
   "minimum-stability": "stable",
   "version": "1.0",
+  "type": "project",
   "license": "MIT",
   "authors": [
     {
