@@ -1,0 +1,138 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e946195a9bc67f750cc67a250eaf88b4",
+    "content-hash": "06fa88e1c87040e0e58265e1629b1a26",
+    "packages": [
+        {
+            "name": "max_dark/useless-abstraction",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction.git",
+                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/f40b0abe50aedcfaeb0459a7f5ba29446ab56534.zip",
+                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "useless\\abstraction\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Dark",
+                    "email": "maxim.dark@gmail.com"
+                }
+            ],
+            "description": "useless\\abstraction library",
+            "homepage": "https://bitbucket.org/max_dark/useless-abstraction",
+            "support": {
+                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/f40b0abe50aedcfaeb0459a7f5ba29446ab56534/?at=1.0.0"
+            },
+            "time": "2016-08-27 04:14:31"
+        },
+        {
+            "name": "max_dark/useless-database",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/max_dark/useless-database.git",
+                "reference": "0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/max_dark/useless-database/get/0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f.zip",
+                "reference": "0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f",
+                "shasum": ""
+            },
+            "require": {
+                "max_dark/useless-abstraction": "1.0.*",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "useless\\database\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Dark",
+                    "email": "maxim.dark@gmail.com"
+                }
+            ],
+            "description": "Implemenattion for useless\\abstraction\\Storage",
+            "support": {
+                "source": "https://bitbucket.org/max_dark/useless-database/src/0fac0e7a5c5be32ec66e6183bb59d9fb1ecbf98f/?at=1.0.0"
+            },
+            "time": "2016-08-27 04:59:41"
+        },
+        {
+            "name": "max_dark/useless-rest",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/max_dark/useless-rest.git",
+                "reference": "b145ff5a1ef9c8f280dde4886a19858a57b67bc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/max_dark/useless-rest/get/b145ff5a1ef9c8f280dde4886a19858a57b67bc1.zip",
+                "reference": "b145ff5a1ef9c8f280dde4886a19858a57b67bc1",
+                "shasum": ""
+            },
+            "require": {
+                "max_dark/useless-abstraction": "1.0.*",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "useless\\rest\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Dark",
+                    "email": "maxim.dark@gmail.com"
+                }
+            ],
+            "description": "Simple REST router",
+            "support": {
+                "source": "https://bitbucket.org/max_dark/useless-rest/src/b145ff5a1ef9c8f280dde4886a19858a57b67bc1/?at=1.0.0"
+            },
+            "time": "2016-08-27 04:41:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.4"
+    },
+    "platform-dev": []
+}
