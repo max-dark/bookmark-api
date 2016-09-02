@@ -8,8 +8,11 @@ use useless\database\Database;
 use useless\database\MySqlStorage;
 use useless\rest\Router;
 
+/** @var \Composer\Autoload\ClassLoader $loader */
 $loader = require_once '../../vendor/autoload.php';
+/** @var array $routes */
 $routes = require_once '../../etc/routes.php';
+/** @var \useless\database\Config $config */
 $config = require_once '../../etc/db.php';
 
 $storage = new MySqlStorage(
