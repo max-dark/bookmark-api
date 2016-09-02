@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e946195a9bc67f750cc67a250eaf88b4",
-    "content-hash": "06fa88e1c87040e0e58265e1629b1a26",
+    "hash": "09b49c8cc87429a7e6ea12a8a537aef6",
+    "content-hash": "b6adc1f11b20334318d990cfa69268bb",
     "packages": [
         {
             "name": "max_dark/useless-abstraction",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-abstraction.git",
-                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534"
+                "reference": "17558bb85fa1c9cc044468a976c243d054e38585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/f40b0abe50aedcfaeb0459a7f5ba29446ab56534.zip",
-                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/17558bb85fa1c9cc044468a976c243d054e38585.zip",
+                "reference": "17558bb85fa1c9cc044468a976c243d054e38585",
                 "shasum": ""
             },
             "require": {
@@ -42,26 +42,27 @@
             "description": "useless\\abstraction library",
             "homepage": "https://bitbucket.org/max_dark/useless-abstraction",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/f40b0abe50aedcfaeb0459a7f5ba29446ab56534/?at=1.0.0"
+                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/17558bb85fa1c9cc044468a976c243d054e38585/?at=1.0.1",
+                "issues": "https://bitbucket.org/max_dark/useless-abstraction/issues"
             },
-            "time": "2016-08-27 04:14:31"
+            "time": "2016-09-02 07:53:49"
         },
         {
             "name": "max_dark/useless-database",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-database.git",
-                "reference": "48c8a6df8b1405d69361546aff0c282dc7230992"
+                "reference": "0dfd64b5e05e12343bded8bc017dd4623c80a8ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-database/get/48c8a6df8b1405d69361546aff0c282dc7230992.zip",
-                "reference": "48c8a6df8b1405d69361546aff0c282dc7230992",
+                "url": "https://bitbucket.org/max_dark/useless-database/get/0dfd64b5e05e12343bded8bc017dd4623c80a8ec.zip",
+                "reference": "0dfd64b5e05e12343bded8bc017dd4623c80a8ec",
                 "shasum": ""
             },
             "require": {
-                "max_dark/useless-abstraction": "1.0.*",
+                "max_dark/useless-abstraction": "~1.0.0",
                 "php": ">=5.6.4"
             },
             "type": "library",
@@ -81,26 +82,27 @@
             ],
             "description": "Implementation for useless\\abstraction\\Storage",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-database/src/48c8a6df8b1405d69361546aff0c282dc7230992/?at=master"
+                "source": "https://bitbucket.org/max_dark/useless-database/src/0dfd64b5e05e12343bded8bc017dd4623c80a8ec/?at=1.0.4",
+                "issues": "https://bitbucket.org/max_dark/useless-database/issues"
             },
-            "time": "2016-08-27 06:33:46"
+            "time": "2016-09-02 08:03:30"
         },
         {
             "name": "max_dark/useless-rest",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-rest.git",
-                "reference": "b145ff5a1ef9c8f280dde4886a19858a57b67bc1"
+                "reference": "a9b49f078a2509a3f5bd969310388fe13ef6605d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-rest/get/b145ff5a1ef9c8f280dde4886a19858a57b67bc1.zip",
-                "reference": "b145ff5a1ef9c8f280dde4886a19858a57b67bc1",
+                "url": "https://bitbucket.org/max_dark/useless-rest/get/a9b49f078a2509a3f5bd969310388fe13ef6605d.zip",
+                "reference": "a9b49f078a2509a3f5bd969310388fe13ef6605d",
                 "shasum": ""
             },
             "require": {
-                "max_dark/useless-abstraction": "1.0.*",
+                "max_dark/useless-abstraction": "~1.0.0",
                 "php": ">=5.6.4"
             },
             "type": "library",
@@ -120,9 +122,10 @@
             ],
             "description": "Simple REST router",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-rest/src/b145ff5a1ef9c8f280dde4886a19858a57b67bc1/?at=1.0.0"
+                "source": "https://bitbucket.org/max_dark/useless-rest/src/a9b49f078a2509a3f5bd969310388fe13ef6605d/?at=1.0.1",
+                "issues": "https://bitbucket.org/max_dark/useless-rest/issues"
             },
-            "time": "2016-08-27 04:41:51"
+            "time": "2016-09-02 08:06:04"
         }
     ],
     "packages-dev": [],
