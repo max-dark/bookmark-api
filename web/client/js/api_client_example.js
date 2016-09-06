@@ -36,7 +36,7 @@ var ApiClient = function (opt) {
     };
     // изменить Comment.text по uid (если он добавлен с этого же IP и прошло меньше часа после добавления)
     this.set_cmt = function () {
-        jq.post(api_url(opt, "cmt", "/edit"), {uid: $cid.val(), text: $text.val()}).done(display_result);
+        jq.post(api_url(opt, "cmt", "/update"), {uid: $cid.val(), text: $text.val()}).done(display_result);
     };
     // удалить Comment по uid (если он добавлен с этого же IP и прошло меньше часа после добавления)
     this.del_cmt = function () {
