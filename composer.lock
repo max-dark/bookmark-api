@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "09b49c8cc87429a7e6ea12a8a537aef6",
-    "content-hash": "b6adc1f11b20334318d990cfa69268bb",
+    "hash": "150f5b7371134fa53f8a60f8373e832c",
+    "content-hash": "7523a87911cfa48b23ccbfb873322132",
     "packages": [
         {
             "name": "max_dark/useless-abstraction",
@@ -49,16 +49,16 @@
         },
         {
             "name": "max_dark/useless-database",
-            "version": "1.0.4",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-database.git",
-                "reference": "0dfd64b5e05e12343bded8bc017dd4623c80a8ec"
+                "reference": "e5be74ee3a0f18b83a0d004430ca6003cc2a0070"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-database/get/0dfd64b5e05e12343bded8bc017dd4623c80a8ec.zip",
-                "reference": "0dfd64b5e05e12343bded8bc017dd4623c80a8ec",
+                "url": "https://bitbucket.org/max_dark/useless-database/get/e5be74ee3a0f18b83a0d004430ca6003cc2a0070.zip",
+                "reference": "e5be74ee3a0f18b83a0d004430ca6003cc2a0070",
                 "shasum": ""
             },
             "require": {
@@ -82,10 +82,10 @@
             ],
             "description": "Implementation for useless\\abstraction\\Storage",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-database/src/0dfd64b5e05e12343bded8bc017dd4623c80a8ec/?at=1.0.4",
+                "source": "https://bitbucket.org/max_dark/useless-database/src/e5be74ee3a0f18b83a0d004430ca6003cc2a0070/?at=v1.1.2",
                 "issues": "https://bitbucket.org/max_dark/useless-database/issues"
             },
-            "time": "2016-09-02 08:03:30"
+            "time": "2016-09-06 13:52:44"
         },
         {
             "name": "max_dark/useless-rest",
@@ -130,7 +130,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
