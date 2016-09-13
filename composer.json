@@ -3,7 +3,7 @@
   "description": "Simple API for shared bookmarks",
   "homepage": "https://bitbucket.org/max_dark/bookmark-api",
   "minimum-stability": "stable",
-  "version": "1.0.1-dev",
+  "version": "1.0.1.1",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -20,20 +20,6 @@
   "require": {
     "php": ">=5.6.4",
     "max_dark/useless-database": "~1.1.2",
-    "max_dark/useless-rest": "~1.0.0"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://bitbucket.org/max_dark/useless-abstraction.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://bitbucket.org/max_dark/useless-database.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://bitbucket.org/max_dark/useless-rest.git"
-    }
-  ]
+    "max_dark/useless-rest": "~1.0.1"
+  }
 }
