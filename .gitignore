@@ -1,2 +1,6 @@
+# IDE & editors
 /.idea/
+/.vscode/
+
+# composer
 /vendor/
